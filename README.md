@@ -8,6 +8,10 @@ This is an archiso configuration which I use to add ZFS support so I don't need 
 - zfs-utils, which gives the utils to interact with zfs such as "zpool" and "zfs"
 - Gum, not needed but I use it in my config so I add it.
 
+## WARNING
+
+By default this config add my ssh public key, to change this go to airrootfs/root/.ssh/authorized_keys
+
 ## How to build
 
 Run the build.sh script which first checks if the archiso command is available if not it install archiso and then builds the ISO.

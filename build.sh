@@ -13,5 +13,5 @@ echo "Done... Cleaning up"
 
 sleep 3
 
-rm -rf ./work
+sudo rm -rf ./work
 
